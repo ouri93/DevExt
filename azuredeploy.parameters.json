@@ -11,9 +11,6 @@
         "dnsLabel": {
             "value": "F5ExtWeb"
         }, 
-        "avsetLabel": {
-            "value": "F5ExtWeb-avset"
-        }, 
         "instanceName": {
             "value": "F5ExtWeb1"
         }, 
