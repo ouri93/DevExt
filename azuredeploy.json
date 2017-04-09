@@ -59,7 +59,7 @@
                 "Standard_F4", 
                 "Standard_F8"
             ], 
-            "defaultValue": "Standard_DS2_v2", 
+            "defaultValue": "Standard_D2_v2", 
             "metadata": {
                 "description": "Size of the VM"
             }, 
