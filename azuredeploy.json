@@ -22,13 +22,6 @@
             }, 
             "type": "string"
         }, 
-        "avsetLabel": {
-            "defaultValue": "F5ExtWeb", 
-            "metadata": {
-                "description": "Availability Set Name Prefix"
-            }, 
-            "type": "string"
-        },
         "instanceName": {
             "defaultValue": "F5ExtWeb1", 
             "metadata": {
@@ -181,7 +174,7 @@
         "offerToUse": "f5-big-ip-hourly", 
         "bigIpNicPortValue": "[variables('bigIpNicPortMap')['1'].Port]", 
         "bigIpMgmtPort": "[variables('bigIpVersionPortMap')[variables('bigIpNicPortValue')].Port]", 
-        "availabilitySetName": "[concat(variables('dnsLabel'), '-avset')]", 
+        "availabilitySetName": "F5ExtWeb-avset", 
         "nicName": "[concat(variables('dnsLabel'), '-nic')]", 
         "defaultGw": "10.10.0.4", 
         "virtualNetworkName": "LITRBox", 
