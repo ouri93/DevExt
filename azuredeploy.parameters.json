@@ -1,0 +1,45 @@
+﻿{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#", 
+    "contentVersion": "2.0.0.0", 
+    "parameters": {
+        "adminUsername": {
+            "value": "netsvcs"
+        }, 
+        "adminPassword": {
+            "value": "GEN_UNIQUE"
+        }, 
+        "dnsLabel": {
+            "value": "F5ExtWeb"
+        }, 
+        "avsetLabel": {
+            "value": "F5ExtWeb-avset"
+        }, 
+        "instanceName": {
+            "value": "F5ExtWeb1"
+        }, 
+        "instanceType": {
+            "value": "Standard_DS2_v2"
+        }, 
+        "imageName": {
+            "value": "Good"
+        }, 
+        "bigIpVersion": {
+            "value": "13.0.000"
+        }, 
+        "licensedBandwidth": {
+            "value": "25m"
+        }, 
+        "restrictedSrcAddress": {
+            "value": "*"
+        }, 
+        "tagValues": {
+            "value": {
+                "application": "DEVEXT_LTM", 
+                "cost": "DEVEXT_COST", 
+                "environment": "DEVEXT", 
+                "group": "DEVEXT_GRP", 
+                "owner": "DEXEXT_OWNER"
+            }
+        }
+    }
+}
