@@ -15,7 +15,7 @@
             "value": "F5ExtWeb1"
         }, 
         "instanceType": {
-            "value": "Standard_DS2_v2"
+            "value": "Standard_D2_v2"
         }, 
         "imageName": {
             "value": "Good"
